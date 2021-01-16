@@ -1,17 +1,18 @@
-# satisfactory-monitoring
-A process for monitoring the logs of Satisfactory, by Coffee Stain Studios, and sending alerts whenever certain conditions arise that may break multiplayer sessions
-
-## Quick Start
+# python_starter
+It's my starter repo for doing python stuff
 
 ## Development Setup
 ### Install build tools
 
-`python3 -m venv .venv`
+`python -m venv .venv`
 
 `./.venv/Scripts/activate`
 
-`python3 -m pip install -r dev-requirements.txt`
+`python -m pip install -r dev-requirements.txt`
 
 ### Run the build
 
-`python3 -m build -sw`
+`python -m build -sw`
+
+### Run the thing
+`python -m python_starter`
