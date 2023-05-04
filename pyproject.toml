@@ -1,3 +1,18 @@
 [build-system]
-requires = ["setuptools >= 51.1.2", "wheel >= 0.36.2"]
+requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
+
+# TODO rename my_package (folders, files, and text within files to your module name)
+[project]
+name = "my_package"
+version = "1.0.0"
+
+dependencies = [
+  #TODO add dependencies
+  #"pymongo ~= 4.3.3"
+]
+
+[project.optional-dependencies]
+build = [
+  'pytest ~= 7.3.1'
+]
